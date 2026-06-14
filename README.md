@@ -5,7 +5,7 @@ Private-alpha GitHub Action bundle for deterministic Livery brand checks.
 Use the public distribution repo:
 
 ```yaml
-- uses: anggaprytn/livery-action@v0.1.0-rc.4
+- uses: anggaprytn/livery-action@v0.1.0-rc.5
   with:
     brand_id: brand_livery_test
     api_url: ${{ secrets.LIVERY_API_URL }}
