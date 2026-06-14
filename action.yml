@@ -1,0 +1,27 @@
+name: "Livery Brand Check"
+description: "Run deterministic Livery brand CI checks"
+inputs:
+  brand_id:
+    description: "Brand ID to validate"
+    required: false
+  api_key:
+    description: "Livery API key"
+    required: false
+  api_url:
+    description: "Livery API URL"
+    required: false
+  upload:
+    description: "Upload the completed run when api_url and api_key are provided"
+    required: false
+    default: "true"
+  fail_on:
+    description: "Minimum severity that fails the action"
+    required: false
+    default: "high"
+  mode:
+    description: "Scan mode: changed, staged, or all"
+    required: false
+    default: "changed"
+runs:
+  using: "node24"
+  main: "dist/index.cjs"
