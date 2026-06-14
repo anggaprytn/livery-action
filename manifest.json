@@ -1,11 +1,11 @@
 {
   "name": "livery-action",
-  "version": "0.1.0-rc.6",
+  "version": "0.1.0-rc.7",
   "source": "packages/action",
   "files": [
     "action.yml",
     "dist/index.cjs",
     "README.md"
   ],
-  "created_at": "2026-06-14T09:43:00.011Z"
+  "created_at": "2026-06-14T10:31:54.720Z"
 }
