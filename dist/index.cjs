@@ -50947,7 +50947,7 @@ var {
   getCancelSignal: getCancelSignal2
 } = getIpcExport();
 
-// ../cli/dist/chunk-XTHI2THN.js
+// ../cli/dist/chunk-LQY2XZYG.js
 var import_perf_hooks = require("perf_hooks");
 var import_path = __toESM(require("path"), 1);
 
@@ -54992,7 +54992,7 @@ var coerce = {
 };
 var NEVER = INVALID;
 
-// ../cli/dist/chunk-XTHI2THN.js
+// ../cli/dist/chunk-LQY2XZYG.js
 var import_promises12 = require("fs/promises");
 var import_perf_hooks2 = require("perf_hooks");
 var import_path2 = __toESM(require("path"), 1);
